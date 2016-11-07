@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:baselineAligned="false">
+
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    </ListView>
+
+    <!--
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Drink Menu"
+            android:layout_span="3"
+            android:padding="15dip"
+            android:background="#0033aa"
+            android:gravity="center_horizontal"
+            android:textColor="#000"/>
+
+    </TableRow>
+        -->
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <TextView
+            android:id="@+id/TextView1" android:text="Send Previous Order"
+            android:layout_weight="1" android:background="#ff0000"
+            android:textColor="#000000"
+            android:padding="50dip" android:gravity="center"/>
+        <TextView
+            android:id="@+id/TextView2" android:text="Send Order"
+            android:layout_weight="1" android:background="#00ff00"
+            android:textColor="#000000"
+            android:padding="50dip" android:gravity="center"/>
+    </TableRow>
+
+</TableLayout>
